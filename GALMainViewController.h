@@ -1,5 +1,5 @@
 //
-//  GALAppDelegate.h
+//  GALMainViewController.h
 //  MyTabbarDemo
 //
 //  Created by qianfeng on 15-3-15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GALAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface GALMainViewController : UIViewController
 
 @end

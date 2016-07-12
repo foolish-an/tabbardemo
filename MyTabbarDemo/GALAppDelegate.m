@@ -7,13 +7,28 @@
 //
 
 #import "GALAppDelegate.h"
-
+#import "GALMainViewController.h"
+#import "MyTabbar.h"
 @implementation GALAppDelegate
 
+{
+    MyTabbar *_mt;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+   _mt = [[MyTabbar alloc]init];
+    
+    
+    [_mt createTabbarController];
+    [_mt createMytabbar];
+    
+    
+    
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

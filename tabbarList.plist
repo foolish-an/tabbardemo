@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bgImageName</key>
+	<string>tabbar_bg.png</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>ImageName</key>
+			<string>tabbar_0.png</string>
+			<key>selectedIage</key>
+			<string>tabbar_0_press.png</string>
+			<key>title</key>
+			<string>限免</string>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>tabbar_1.png</string>
+			<key>selectedIage</key>
+			<string>tabbar_1_press.png</string>
+			<key>title</key>
+			<string>降价</string>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>tabbar_2.png</string>
+			<key>selectedIage</key>
+			<string>tabbar_2_press.png</string>
+			<key>title</key>
+			<string>免费</string>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>tabbar_3.png</string>
+			<key>selectedIage</key>
+			<string>tabbar_3_press.png</string>
+			<key>title</key>
+			<string>专题</string>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>tabbar_4.png</string>
+			<key>selectedIage</key>
+			<string>tabbar_4_press.png</string>
+			<key>title</key>
+			<string>热榜</string>
+		</dict>
+	</array>
+</dict>
+</plist>
